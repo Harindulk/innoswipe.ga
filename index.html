@@ -312,7 +312,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				</section>
 
 				<section>
-					<h3 class="major">Form</h3>
+					<h3 class="">Form</h3>
 
 					<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
 						action="https://formspree.io/f/meqpvbpw" method="post">
@@ -346,6 +346,33 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 		</div>
 
+
+		<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+		action="https://formspree.io/f/meqpvbpw" method="post">
+
+		<fieldset id="fs-frm-inputs">
+
+			<label for="full-name">Name</label>
+			<input type="text" name="name" id="full-name" value="" placeholder="First and Last"
+				required="">
+
+			<label for="email-address">Email</label>
+			<input type="email" name="_replyto" id="email-address" placeholder="jane@untitled.tld"
+				required="" />
+
+			<label for="message">Message</label>
+			<textarea name="message" id="message" placeholder="Enter your message" rows="6"
+				required=""></textarea>
+
+			<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+
+		</fieldset>
+
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+
+
+	</form>
 
 
 		<!-- Footer -->
