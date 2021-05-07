@@ -693,7 +693,10 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 2.5rem 0;
-			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			width: 40%;
+			
 		}
 
 			.image.main img {
@@ -704,6 +707,9 @@ input, select, textarea {
 
 			.image.main {
 				margin: 2rem 0;
+				margin-left: auto;
+				margin-right: auto;
+
 			}
 
 		}
@@ -712,6 +718,9 @@ input, select, textarea {
 
 			.image.main {
 				margin: 1.5rem 0;
+				margin-left: auto;
+				margin-right: auto;
+
 			}
 
 		}
