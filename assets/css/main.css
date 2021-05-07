@@ -815,13 +815,12 @@ input[type="radio"] + label:before {
   width: 100%;
 }
 
-.image-game {
+.imagegame {
 	display: block;
 	margin: 2.5rem 0;
 	margin-left: auto;
 	margin-right: auto;
-	width: 30%;
-	border-radius: 25px;	
+	width: 100%;
 	
 }
 
