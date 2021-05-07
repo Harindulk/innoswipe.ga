@@ -77,36 +77,37 @@
 			<article id="about">
 				<h2 class="major">About</h2>
 				<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-				<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at
-					eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-					lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
-					fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
-					dolor sit amet.</p>
+				<p>innoswipe is a small game development company. it's started with a 14 years old boy called harindu
+					Fonseka ( Harindulk). He is developing small games and publishing them into the play store.</p>
 			</article>
 
 			<!-- Contact -->
 			<article id="contact">
 				<h2 class="major">Contact</h2>
-				<form method="post" action="#">
-					<div class="fields">
-						<div class="field half">
-							<label for="name">Name</label>
-							<input type="text" name="name" id="name" />
-						</div>
-						<div class="field half">
-							<label for="email">Email</label>
-							<input type="text" name="email" id="email" />
-						</div>
-						<div class="field">
-							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="4"></textarea>
-						</div>
-					</div>
-					<ul class="actions">
-						<li><input type="submit" value="Send Message" class="primary" /></li>
-						<li><input type="reset" value="Reset" /></li>
-					</ul>
-				</form>
+				<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/meqpvbpw"
+				method="post">
+	
+				<fieldset id="fs-frm-inputs">
+	
+					<label for="full-name">Name</label>
+					<input type="text" name="name" id="full-name" value="" placeholder="First and Last" required="">
+	
+					<label for="email-address">Email</label>
+					<input type="email" name="_replyto" id="email-address" placeholder="jane@untitled.tld" required="" />
+	
+					<label for="message">Message</label>
+					<textarea name="message" id="message" placeholder="Enter your message" rows="6" required=""></textarea>
+	
+					<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+	
+				</fieldset>
+				<br>
+	
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+	
+	
+			</form>
 				<ul class="icons">
 					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -311,68 +312,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					</ul>
 				</section>
 
-				<section>
-					<h3 class="">Form</h3>
-
-					<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
-						action="https://formspree.io/f/meqpvbpw" method="post">
-
-						<fieldset id="fs-frm-inputs">
-
-							<label for="full-name">Name</label>
-							<input type="text" name="name" id="full-name" value="" placeholder="First and Last"
-								required="">
-
-							<label for="email-address">Email</label>
-							<input type="email" name="_replyto" id="email-address" placeholder="jane@untitled.tld"
-								required="" />
-
-							<label for="message">Message</label>
-							<textarea name="message" id="message" placeholder="Enter your message" rows="6"
-								required=""></textarea>
-
-							<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-
-						</fieldset>
-
-						<input type="submit" value="Submit">
-						<input type="reset" value="Reset">
-
-
-					</form>
-				</section>
-
+				
 			</article>
 
 		</div>
 
-
-		<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
-		action="https://formspree.io/f/meqpvbpw" method="post">
-
-		<fieldset id="fs-frm-inputs">
-
-			<label for="full-name">Name</label>
-			<input type="text" name="name" id="full-name" value="" placeholder="First and Last"
-				required="">
-
-			<label for="email-address">Email</label>
-			<input type="email" name="_replyto" id="email-address" placeholder="jane@untitled.tld"
-				required="" />
-
-			<label for="message">Message</label>
-			<textarea name="message" id="message" placeholder="Enter your message" rows="6"
-				required=""></textarea>
-
-			<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-
-		</fieldset>
-
-		<input type="submit" value="Submit">
-		<input type="reset" value="Reset">
-
-
-	</form>
 
 
 		<!-- Footer -->
